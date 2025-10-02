@@ -1,4 +1,6 @@
 n =int(input("N:  "))
+if n<0:
+  exit()
 if n%2==0:
   print("even") #changes made now working
 else:
